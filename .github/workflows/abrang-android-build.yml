@@ -1,5 +1,7 @@
 name: Build Abrang Android APK
 on:
+  pull_request:
+    branches: [master]
   push:
     branches: [abrang-android-65-build]
   workflow_dispatch:
