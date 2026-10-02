@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [master]
   push:
-    branches: [abrang-android-65-build]
+    branches: [abrang-android-build2]
   workflow_dispatch:
 permissions:
   contents: read
